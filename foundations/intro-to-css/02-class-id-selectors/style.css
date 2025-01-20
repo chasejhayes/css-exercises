@@ -1,0 +1,19 @@
+.index_class{
+    background-color:rgb(237, 86, 152);
+    font-family: Verdana, 'DejaVu sans', sans-serif;
+}
+
+#two{
+    color:rgb(39, 39, 200);
+    font-size: 36px;
+}
+
+.size_class{
+    font-size: 24px;
+}
+
+#four{
+    background-color:rgb(121, 219, 121);
+    font-size: 24px;
+    font-weight: bold;
+}
