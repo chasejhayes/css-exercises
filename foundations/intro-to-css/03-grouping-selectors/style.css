@@ -1,0 +1,25 @@
+.yes,
+.no{
+    font-family: 'Helvetica','Times New Roman','sans-serif';
+    font-size: x-large;
+    outline: black;
+
+}
+
+
+.yes{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+}
+
+.no{
+    background-color: yellow;
+    color: black;
+
+}
+
+/* yes - black background, white text, bold text */
+/* no - yellow background, black text */
+/* san serif text, text size x large, black outline */
