@@ -9,10 +9,20 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.container_1{
+  padding: 15px;
+  margin: 3px;
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  justify-content: space-evenly;
+  gap: 10px;
+
 }
 
 .modal {
@@ -33,6 +43,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -67,3 +78,28 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+.container_2{
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  gap: 15px;
+
+}
+
+.container_3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_4{
+  display: flex;
+}
+
+.header{
+  font-weight: bolder;
+  font-size: larger;
+}
+
+
